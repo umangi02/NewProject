@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+/.idea/
+/ExtentReports/
+/logcat/
+/Screenshots/
+/target/
+/test-output/
+/bin/
+WalletApp.iml

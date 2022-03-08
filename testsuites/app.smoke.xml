@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppSmoke">
+	<test name="Test">
+	<parameter name="parameter" value="abc">
+		<classes>
+			<!-- <class name="co.nayan.c3.tests.app.login.LogInTest" /> -->
+			<class name="com.manta.wallet.tests.login.LogInTest"/>
+			<!-- <class name="co.nayan.c3.tests.app.annotations.CropAnnotationTest" />
+			<class name="co.nayan.c3.tests.app.recording.RecordingTest"/>
+			<class name="co.nayan.c3.tests.app.wallet.BonusTest"/>
+			<class name="co.nayan.c3.tests.app.annotations.JunkRecordTest" />
+			<class name="co.nayan.c3.tests.app.annotations.UndoAnnotationTest" />
+			<class name="co.nayan.c3.tests.app.profile.SwitchProfileTest"/>		 -->
+		</classes>
+	</test>
+</suite>
