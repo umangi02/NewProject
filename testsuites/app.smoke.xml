@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="AppSmoke">
 	<test name="Test">
-	<parameter name="parameter" value="abc">
+	<parameter name="udid" value="a8b0841e"/>
+	<parameter name="systemPort" value="8202"/>
 		<classes>
 			<!-- <class name="co.nayan.c3.tests.app.login.LogInTest" /> -->
 			<class name="com.manta.wallet.tests.login.LogInTest"/>
