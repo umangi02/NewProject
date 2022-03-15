@@ -69,6 +69,9 @@ public class LogInTest extends BaseAppDriver {
 		Report.log(Status.PASS, "User logged in successfully.");
 
 		generics.pause(3);
+		
+		
+		
 
 		Assert.assertTrue(loginScreen.isEmailVerifiedPopupDisplayed(), "Verified email Popup not displayed.");
 		Report.log(Status.PASS, "Verify Email Verification Popup is visible.");
