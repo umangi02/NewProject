@@ -28,14 +28,10 @@ public class AddFundsSO extends BaseAppDriver {
 	By complitionLabel = new By.ById(APP_PACKAGE + ":id/ratings_textview");
 	By volumeLabel = new By.ById(APP_PACKAGE + ":id/volume_textview");
 	By buybutton = new By.ByXPath("//android.widget.Button[contains(@text,'Buy')]");
-	By selectCountryLabel = new By.ById(APP_PACKAGE+":id/title");
-	By depositeLabel = new By.ById(APP_PACKAGE+":id/add_method_textview");
-	By reciveMoneyLabel = new By.ById(APP_PACKAGE+":id/titleTV");
-			
-			
-			
-			
-			
+	By selectCountryLabel = new By.ById(APP_PACKAGE + ":id/title");
+	By depositeLabel = new By.ById(APP_PACKAGE + ":id/add_method_textview");
+	By reciveMoneyLabel = new By.ById(APP_PACKAGE + ":id/titleTV");
+
 	public boolean isUserNameDisplayed() {
 		return generics.isElementPresent(userNameLabel);
 	}
@@ -73,6 +69,10 @@ public class AddFundsSO extends BaseAppDriver {
 
 	}
 
+	
+	
+	
+	
 	public void clickTurboDeposite() {
 		appDriver.findElement(turboDepositeLabel).click();
 
@@ -107,8 +107,5 @@ public class AddFundsSO extends BaseAppDriver {
 		return generics.getText(appDriver.findElement(buybutton));
 
 	}
-	
-
-
 
 }
